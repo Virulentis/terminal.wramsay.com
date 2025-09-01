@@ -64,13 +64,13 @@ const CV: React.FC = () => {
         
         <div style={{ marginLeft: '1rem', fontSize: '0.9rem', color: '#888' }}>
           <div>• <span style={{ color: '#aaa' }}>experience</span> - {sectionCounts.experience} work positions</div>
-          <div>• <span style={{ color: '#aaa' }}>education</span> - {sectionCounts.education} degrees</div>
+          <div>• <span style={{ color: '#aaa' }}>education</span> - {sectionCounts.education} degree</div>
           <div>• <span style={{ color: '#aaa' }}>volunteer</span> - {sectionCounts.volunteer} volunteer positions</div>
-          <div>• <span style={{ color: '#aaa' }}>awards</span> - {sectionCounts.awards} awards and achievements</div>
+          {/* <div>• <span style={{ color: '#aaa' }}>awards</span> - {sectionCounts.awards} awards and achievements</div>
           <div>• <span style={{ color: '#aaa' }}>publications</span> - {sectionCounts.publications} published papers</div>
           {sectionCounts.presentations > 0 && (
             <div>• <span style={{ color: '#aaa' }}>presentations</span> - {sectionCounts.presentations} conference presentations</div>
-          )}
+          )} */}
           {sectionCounts.professional_development > 0 && (
             <div>• <span style={{ color: '#aaa' }}>professional development</span> - {sectionCounts.professional_development} courses completed</div>
           )}

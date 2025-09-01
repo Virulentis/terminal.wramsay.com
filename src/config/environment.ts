@@ -2,13 +2,13 @@
 export const config = {
   // GitHub repository for the resume YAML file
   // Format: "username/repository-name"
-  RESUME_REPO: import.meta.env.VITE_RESUME_REPO || 'ahzs645/resume',
+  RESUME_REPO: import.meta.env.VITE_RESUME_REPO || 'virulentis/resume',
   
   // Branch to fetch from (usually 'main' or 'master')
   RESUME_BRANCH: import.meta.env.VITE_RESUME_BRANCH || 'main',
   
   // Path to the YAML file within the repository
-  RESUME_FILE_PATH: import.meta.env.VITE_RESUME_FILE_PATH || 'Ahmad_Jalil_CV.yaml',
+  RESUME_FILE_PATH: import.meta.env.VITE_RESUME_FILE_PATH || 'William_Ramsay_CV.yaml',
   
   // GitHub Personal Access Token for private repositories
   // For private repos, create a token at: https://github.com/settings/tokens

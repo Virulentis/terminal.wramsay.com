@@ -50,7 +50,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           education: <Education />,
           email: <Email />,
           experience: <Experience />,
-          gui: <Gui />,
+          // gui: <Gui />,
           help: <Help />,
           history: <History />,
           professional: <ProfessionalDevelopment />,

@@ -2,7 +2,7 @@
 
 # Script to replace template placeholders locally (mirrors GitHub Actions workflow)
 
-RESUME_FILE_PATH='Ahmad_Jalil_CV.yaml'
+RESUME_FILE_PATH='William_Ramsay_CV.yaml'
 
 echo "🔄 Starting template replacement..."
 
@@ -13,8 +13,8 @@ if [ -f "$RESUME_FILE_PATH" ]; then
     LOCATION=$(grep -m 1 "location:" "$RESUME_FILE_PATH" | sed 's/.*location: //' | sed 's/["'\'']//' | xargs)
 else
     echo "⚠️  CV file not found, using fallback values"
-    NAME="Ahmad Jalil"
-    LOCATION="Prince George, BC"
+    NAME="William Ramsay"
+    LOCATION="Vancouver, BC"
 fi
 
 echo "📝 Name: $NAME"

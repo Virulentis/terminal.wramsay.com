@@ -11,8 +11,8 @@ const DownloadCV: React.FC = () => {
   React.useEffect(() => {
     if (rerender && currentCommand[0] === "download-cv" && currentCommand.length <= 1) {
       const link = document.createElement("a");
-      link.href = "/Ahmad_Jalil_CV.pdf";
-      link.download = "Ahmad_Jalil_CV.pdf";
+      link.href = "/William_Ramsay_CV.pdf";
+      link.download = "William_Ramsay_CV.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -25,7 +25,7 @@ const DownloadCV: React.FC = () => {
       <p>
         If the download doesn't start automatically,{" "}
         <Link 
-          href="/Ahmad_Jalil_CV.pdf" 
+          href="/William_Ramsay_CV.pdf" 
           download
         >
           click here

@@ -101,6 +101,23 @@ const theme: Themes = {
       },
     },
   },
+
+  nightowl: {
+    id: "T_007",
+    name: "nightowl",
+    colors: {
+      body: "#011627",
+      scrollHandle: "#4271bdff",
+      scrollHandleHover: "#2662bdff",
+      primary: "#514fadff",
+      secondary: "#ff9d00ff",
+      text: {
+        100: "#5985c9",
+        200: "#3d57beff",
+        300: "#008cffff",
+      },
+    },
+  },
 };
 
 export default theme;

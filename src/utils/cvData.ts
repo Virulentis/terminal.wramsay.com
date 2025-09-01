@@ -222,7 +222,7 @@ export const getCVData = async (): Promise<CVData> => {
 
   try {
     // Try to fetch from the public directory first (which should contain the pre-fetched YAML)
-    let response = await fetch('/Ahmad_Jalil_CV.yaml');
+    let response = await fetch('/William_Ramsay_CV.yaml');
     
     // If that fails and we're in development, try fetching directly from GitHub
     if (!response.ok && import.meta.env.DEV) {
@@ -264,11 +264,11 @@ export const getCVData = async (): Promise<CVData> => {
     // Fallback to empty structure if loading fails
     return {
       cv: {
-        name: 'Ahmad Jalil',
-        location: 'Prince George, BC',
-        email: 'me@ahmadjalil.com',
-        phone: '+1-778-267-9144',
-        website: 'https://ahmadjalil.com',
+        name: '',
+        location: '',
+        email: '',
+        phone: '',
+        website: '',
         sections: {
           experience: [],
           education: [],
