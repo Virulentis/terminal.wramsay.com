@@ -1,0 +1,130 @@
+cv:
+  name: William Ramsay
+  location: Vancouver, BC
+  email: me@wramsay.com
+  phone: +1 (250) 302-9268
+  website: https://terminal.wramsay.com
+  social:
+    - network: LinkedIn
+      username: william-ramsay-b2b45617b
+      url: https://www.linkedin.com/in/william-ramsay-b2b45617b
+    - network: GitHub
+      username: 
+      url: https://github.com/virulentis
+  
+  sections:
+    experience:
+     
+      - company: Over the Edge
+        position: Process Engineer Intern
+        location: Remote
+        start_date: 2025-4
+        end_date: present
+        highlights:
+          - Fully developed and deployed a PowerAutomate workflow to streamline user submissions, significantly reducing manual effort and improving efficiency
+
+      - company: UNBC
+        position: Computer Science Teaching Assistant
+        location: Prince George, BC
+        start_date: 2022-9
+        end_date: 2023-4
+        highlights:
+          - Provided technical support and training to students on programming and system concepts
+          - Assisted in debugging and resolving technical issues in a classroom environment
+          - Delivered clear and concise explanations to users of varying levels of technical expertise and understanding
+      
+      - company: Ministry of Forests
+        position: Administrative Assistant
+        location: Williams Lake, BC
+        start_date: 2021-5
+        end_date: 2022-8
+        spacing_after: different_company
+        highlights:
+          - Supported departmental IT needs, including hardware troubleshooting and software updates
+          - Coordinated disposal and recycling of outdated hardware and supplies
+          - Supported the Williams Lake fire centre during fire season, working independently and under pressure
+      
+    volunteer:
+      - company: UNBC Student Society
+        location: Prince George, BC
+        position: Director at Large
+        start_date: 2020-11
+        end_date: 2021-3
+        spacing_after: different_company
+        highlights:
+          - Represented the interests of the student body in university governance and decision-making processes
+          - Organized and promoted events and initiatives to enhance student engagement and campus life
+          - Collaborated with other board members to develop and implement policies and programs that benefit students
+        
+      - company: UNBC Fencing Columbia
+        location: Prince George, BC
+        position: Secretary
+        start_date: 2019-1
+        end_date: 2020-4
+        spacing_after: different_company
+        highlights:
+          - Diligently recorded accurate and comprehensive minutes during executive team meetings
+          - Contributed in the event planning process, providing valuable input and ideas to enhance the overall experince for club members
+          - Helped with the development and implementation of promotional strategies for club events
+
+    education:
+      - institution: University of Northern British Columbia
+        area: Computer Science
+        degree: B.Sc.
+        location: Prince George, BC
+        start_date: 2019-09
+        end_date: 2023-09
+        highlights:
+          - "Focus: Data Science, Software Engineering"
+      
+    projects:
+      - name: MTG Card Scraper
+        date: 2024
+        summary: A web scraper that collects data on Magic The Gathering cards from various online sources, including card names, types, abilities, and prices. Built using Python and BeautifulSoup.
+        highlights:
+          - Technologies - Python, BeautifulSoup, Requests, Pandas
+        
+      - name: Personal Server
+        date: 2025
+        summary: Built and configured a dedicated server from repurposed hardware. The server hosts various services, including a personal website, file storage, and media streaming. Configured using Proxmox and Docker.
+        highlights:
+          - Technologies - Proxmox, Docker, Nginx, Linux
+
+
+
+    professional_development:
+      - name: Applied Internet of Things (IoT)
+        date: 2023-05
+        location: Remote
+        summary: British Columbia Institute of Technology
+  
+
+    certifications_skills:
+      - label: "Skills"
+        details: "PowerAutomate, Python, C/C++, Java, HTML/CSS, JavaScript, Git, Linux, Bash, SQL, Proxmox, Docker"
+
+    awards:
+      - name: ""
+        date: ""
+        summary: ""
+        highlights:
+          - ""      
+    presentations:
+      - name: ""
+        summary: ""
+        location: ""
+        date: ""
+
+
+    publications:
+      - title: ""        
+        authors:
+          -""
+        journal: ""
+        date: ""
+        doi: ""
+
+design:
+  theme: ahmadstyle
+  font_size: 11pt
+  page_size: us-letter

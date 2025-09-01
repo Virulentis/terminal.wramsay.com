@@ -35,14 +35,14 @@ jobs:
       - name: Checkout private resume repo
         uses: actions/checkout@v4
         with:
-          repository: ahzs645/resume
+          repository: virulentis/resume
           token: ${{ secrets.RESUME_GITHUB_TOKEN }}
           path: resume-repo
 
       - name: Copy YAML from private repo
         run: |
-          if [ -f resume-repo/Ahmad_Jalil_CV.yaml ]; then
-            cp resume-repo/Ahmad_Jalil_CV.yaml ./
+          if [ -f resume-repo/William_Ramsay_CV.yaml ]; then
+            cp resume-repo/William_Ramsay_CV.yaml ./
             echo "✅ Resume YAML copied from private repo"
           else
             echo "❌ Resume YAML not found in private repo - using local fallback"
@@ -64,15 +64,15 @@ jobs:
       # CRITICAL: Copy YAML file to public directory before build
       - name: Copy CV YAML to public directory
         run: |
-          echo "Copying Ahmad_Jalil_CV.yaml to public directory..."
-          cp Ahmad_Jalil_CV.yaml public/Ahmad_Jalil_CV.yaml
+          echo "Copying CV YAML to public directory..."
+          cp William_Ramsay_CV.yaml public/William_Ramsay_CV.yaml
           echo "Verifying file was copied:"
-          ls -la public/Ahmad_Jalil_CV.yaml
+          ls -la public/William_Ramsay_CV.yaml
         
       # Replace template placeholders in index.html before build
       - name: Replace template placeholders
         env:
-          RESUME_FILE_PATH: 'Ahmad_Jalil_CV.yaml'
+          RESUME_FILE_PATH: 'William_Ramsay_CV.yaml'
         run: |
           # Read the CV YAML file and extract name and location
           if [ -f "$RESUME_FILE_PATH" ]; then
@@ -81,8 +81,8 @@ jobs:
             LOCATION=$(grep -m 1 "location:" "$RESUME_FILE_PATH" | sed 's/.*location: //' | sed 's/["'\'']//')
           else
             echo "CV file not found, using fallback values"
-            NAME="Ahmad Jalil"
-            LOCATION="Prince George, BC"
+            NAME="William Ramsay"
+            LOCATION="Vancouver, BC"
           fi
           
           echo "Name: $NAME"
@@ -97,16 +97,21 @@ jobs:
       - name: Build project
         env:
           VITE_GITHUB_TOKEN: ${{ secrets.RESUME_GITHUB_TOKEN }}
+          VITE_RESUME_REPO: ${{ vars.RESUME_REPO }}
+          VITE_RESUME_BRANCH: ${{ vars.RESUME_BRANCH || 'main' }}
+          VITE_RESUME_FILE_PATH: ${{ vars.RESUME_FILE_PATH }}
+          VITE_RESUME_PDF_PATH: ${{ vars.RESUME_PDF_PATH }}
+          VITE_USE_LOCAL_FALLBACK: ${{ vars.USE_LOCAL_FALLBACK || 'true' }}
         run: pnpm build
         
       # Verify the YAML file made it to the build output
       - name: Verify YAML in build output
         run: |
           echo "Checking if YAML file exists in dist directory:"
-          ls -la dist/Ahmad_Jalil_CV.yaml || echo "YAML file not found in dist!"
+          ls -la dist/William_Ramsay_CV.yaml || echo "YAML file not found in dist!"
         
       - name: Add CNAME file
-        run: echo "terminal.ahmadjalil.com" > ./dist/CNAME
+        run: echo "terminal.wramsay.com" > ./dist/CNAME
         
       - name: Setup Pages
         uses: actions/configure-pages@v4

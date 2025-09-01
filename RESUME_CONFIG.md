@@ -32,9 +32,9 @@ This project can now fetch your resume YAML file from any GitHub repository duri
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `VITE_RESUME_REPO` | `ahzs645/resume` | GitHub repository in format `username/repo-name` |
+| `VITE_RESUME_REPO` | `Virulentis/resume` | GitHub repository in format `username/repo-name` |
 | `VITE_RESUME_BRANCH` | `main` | Git branch to fetch from |
-| `VITE_RESUME_FILE_PATH` | `Ahmad_Jalil_CV.yaml` | Path to YAML file in the repository |
+| `VITE_RESUME_FILE_PATH` | `William_Ramsay_CV.yaml` | Path to YAML file in the repository |
 | `VITE_GITHUB_TOKEN` | _(empty)_ | Personal Access Token for private repositories |
 | `VITE_USE_LOCAL_FALLBACK` | `true` | Whether to use local file if GitHub fetch fails |
 
@@ -101,7 +101,7 @@ Make your resume repository public:
 
 1. **Build Time**: The `scripts/fetch-resume.mjs` script runs before the build
 2. **GitHub Fetch**: Downloads your YAML file from the specified repository
-3. **Local Fallback**: If GitHub fails and enabled, uses local `Ahmad_Jalil_CV.yaml`
+3. **Local Fallback**: If GitHub fails and enabled, uses local `William_Ramsay_CV.yaml`
 4. **Runtime**: The app loads the YAML from the public directory
 
 ## Example Repository Structure
@@ -111,7 +111,7 @@ Your resume repository should contain a YAML file with the CV data:
 ```
 your-resume-repo/
 ├── README.md
-├── Ahmad_Jalil_CV.yaml  (or your custom filename)
+├── William_Ramsay_CV.yaml  (or your custom filename)
 └── other-files...
 ```
 
@@ -143,9 +143,9 @@ The included workflow (`.github/workflows/deploy.yml`) automatically handles res
 
 #### Repository Variables (Optional)
 Configure these in your repository settings if different from defaults:
-- `RESUME_REPO` - Your resume repository (default: `ahzs645/resume`)
+- `RESUME_REPO` - Your resume repository (default: `Virulentis/resume`)
 - `RESUME_BRANCH` - Branch to fetch from (default: `main`)
-- `RESUME_FILE_PATH` - Path to YAML file (default: `Ahmad_Jalil_CV.yaml`)
+- `RESUME_FILE_PATH` - Path to YAML file (default: `William_Ramsay_CV.yaml`)
 - `USE_LOCAL_FALLBACK` - Enable local fallback (default: `true`)
 
 #### Repository Secrets (If Needed)
@@ -203,7 +203,7 @@ jobs:
     env:
       VITE_RESUME_REPO: ${{ secrets.RESUME_REPO }}
       VITE_RESUME_BRANCH: main
-      VITE_RESUME_FILE_PATH: Ahmad_Jalil_CV.yaml
+      VITE_RESUME_FILE_PATH: Wiliam_Ramsay_CV.yaml
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3

@@ -1,12 +1,11 @@
-# Terminal Portfolio - Ahmad Jalil
+# Terminal Portfolio - William Ramsay
 
 A terminal-style portfolio website built with React, TypeScript, and Styled-Components, featuring dynamic CV data loading from YAML files.
 
-**Live Demo:** [terminal.ahmadjalil.com](https://terminal.ahmadjalil.com)
 
 ## Overview
 
-This is my personal terminal portfolio website that dynamically loads CV data from YAML files. Forked from [Sat Naing's terminal-portfolio](https://github.com/satnaing/terminal-portfolio) and enhanced with comprehensive CV management features.
+This is my personal terminal portfolio website that dynamically loads CV data from YAML files. Forked from [Ahmad Jalil's terminal-portfolio](https://github.com/ahzs645/terminal.ahmadjalil.com) & [Sat Naing's terminal-portfolio](https://github.com/satnaing/terminal-portfolio) and enhanced with comprehensive CV management features.
 
 ## Features
 
@@ -43,7 +42,6 @@ This is my personal terminal portfolio website that dynamically loads CV data fr
 | `experience` | Work experience summary |
 | `experience-details` | Detailed work experience with achievements |
 | `volunteer` | Community involvement |
-| `awards` | Recognition and achievements |
 | `publications` | Research papers |
 | `themes` | Switch between color themes |
 | `clear` | Clear the terminal |
@@ -69,9 +67,9 @@ See [RESUME_CONFIG.md](RESUME_CONFIG.md) for detailed configuration options.
 
 ### Default Configuration
 
-By default, pulls from `ahzs645/resume` repository. To update my CV:
+By default, pulls from `virulentis/resume` repository. To update my CV:
 
-1. Edit YAML in the [resume repository](https://github.com/ahzs645/resume)
+1. Edit YAML in the [resume repository](https://github.com/virulentis/resume)
 2. Commit and push changes
 3. GitHub Actions automatically deploys (using built-in `GITHUB_TOKEN`)
 
@@ -80,8 +78,8 @@ No additional setup required for same-user repositories!
 ## Running Locally
 
 ```bash
-git clone https://github.com/ahzs645/terminal.ahmadjalil.com.git
-cd terminal.ahmadjalil.com
+git clone https://github.com/Virulentis/terminal.wramsay.com
+cd terminal.wramsay.com
 npm install
 npm run prepare-cv  # Fetches resume from GitHub
 npm run dev
@@ -101,7 +99,7 @@ npm run dev
 
 ## Credits
 
-Forked from [terminal-portfolio](https://github.com/satnaing/terminal-portfolio) by Sat Naing (@satnaing).
+Forked from [Ahmad Jalil's terminal-portfolio](https://github.com/ahzs645/terminal.ahmadjalil.com) by Ahmad Jalil which was forked from [terminal-portfolio](https://github.com/satnaing/terminal-portfolio) by Sat Naing (@satnaing).
 
 ### My Contributions
 - **GitHub Resume Integration** - Fetch resume from any GitHub repository
@@ -115,7 +113,4 @@ Forked from [terminal-portfolio](https://github.com/satnaing/terminal-portfolio)
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
----
 
-**Ahmad Jalil** - Researcher passionate about solving real-life challenges  
-Website: [ahmadjalil.com](https://ahmadjalil.com) | Email: me@ahmadjalil.com

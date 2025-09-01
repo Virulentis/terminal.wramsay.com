@@ -10,10 +10,11 @@ const __dirname = path.dirname(__filename);
 // Load environment variables from .env.local
 dotenv.config({ path: path.join(__dirname, '..', '.env.local') });
 
-const RESUME_REPO = process.env.VITE_RESUME_REPO || 'ahzs645/resume';
+const RESUME_REPO = process.env.VITE_RESUME_REPO || 'Virulentis/resume';
 const RESUME_BRANCH = process.env.VITE_RESUME_BRANCH || 'main';
-const RESUME_FILE_PATH = process.env.VITE_RESUME_FILE_PATH || 'Ahmad_Jalil_CV.yaml';
+const RESUME_FILE_PATH = process.env.VITE_RESUME_FILE_PATH || 'William_Ramsay_CV.yaml';
 const GITHUB_TOKEN = process.env.VITE_GITHUB_TOKEN || process.env.GITHUB_TOKEN || '';
+
 
 async function debugGitHubAccess() {
   console.log('🔍 Debugging GitHub API access...\n');

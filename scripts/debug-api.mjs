@@ -11,7 +11,8 @@ const __dirname = path.dirname(__filename);
 config({ path: path.join(__dirname, '..', '.env.local') });
 
 const GITHUB_TOKEN = process.env.VITE_GITHUB_TOKEN;
-const RESUME_REPO = 'ahzs645/resume';
+const RESUME_REPO = process.env.VITE_RESUME_REPO;
+const RESUME_FILE = process.env.RESUME_FILE_NAME + '.yaml';
 
 console.log('🔍 Debugging GitHub API access...');
 console.log(`Token: ${GITHUB_TOKEN ? 'Present' : 'Missing'}`);
@@ -49,7 +50,7 @@ async function testRepoAccess() {
 // Test file access
 async function testFileAccess() {
   try {
-    const fileUrl = `https://api.github.com/repos/${RESUME_REPO}/contents/Ahmad_Jalil_CV.yaml`;
+    const fileUrl = `https://api.github.com/repos/${RESUME_REPO}/contents/${RESUME_FILE}`;
     const headers = {
       'Authorization': `token ${GITHUB_TOKEN}`,
       'Accept': 'application/vnd.github.v3+json',

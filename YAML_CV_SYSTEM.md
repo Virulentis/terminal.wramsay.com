@@ -1,6 +1,6 @@
 # YAML-Driven CV System
 
-This terminal portfolio now dynamically pulls CV data from the `Ahmad_Jalil_CV.yaml` file, making it easy to update your information without touching the code.
+This terminal portfolio now dynamically pulls CV data from the `William_Ramsay_CV.yaml` file, making it easy to update your information without touching the code.
 
 ## How It Works
 
@@ -70,8 +70,8 @@ The system automatically formats dates from `YYYY-MM` format to readable text:
 ## File Structure
 
 ```
-├── Ahmad_Jalil_CV.yaml          # Main CV data (edit this file)
-├── public/Ahmad_Jalil_CV.yaml   # Copy for web access
+├── William_Ramsay_CV.yaml          # Main CV data (edit this file)
+├── public/William_Ramsay_CV.yaml   # Copy for web access
 ├── src/
 │   ├── utils/cvData.ts          # YAML parsing logic
 │   └── components/commands/
@@ -79,8 +79,8 @@ The system automatically formats dates from `YYYY-MM` format to readable text:
 │       ├── CV.tsx              # Overview command
 │       ├── Education.tsx        # Education section
 │       ├── Experience.tsx       # Work experience
-│       ├── Awards.tsx          # Awards section
-│       ├── Publications.tsx     # Research papers
+<!-- │       ├── Awards.tsx          # Awards section -->
+<!-- │       ├── Publications.tsx     # Research papers -->
 │       └── Volunteer.tsx        # Volunteer work
 ```
 

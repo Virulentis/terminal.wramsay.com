@@ -9,16 +9,16 @@
     <meta name="title" content="Terminal Portfolio by William Ramsay" />
     <meta
       name="description"
-      content="William Ramsay's terminal portfolio website coded with ReactJS. William Ramsay is a full-stack developer based in Vancouver, BC."
+      content="William Ramsay's terminal portfolio website coded with ReactJS. William Ramsay is a full-stack developer based in {{DEVELOPER_LOCATION}}."
     />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://terminal.wramsay.com/" />
+    <meta property="og:url" content="https://terminal.ahmadjalil.com/" />
     <meta property="og:title" content="Terminal Portfolio by William Ramsay" />
     <meta
       property="og:description"
-      content="William Ramsay's terminal portfolio website coded with ReactJS. William Ramsay is a full-stack developer based in Vancouver, BC."
+      content="William Ramsay's terminal portfolio website coded with ReactJS. William Ramsay is a full-stack developer based in {{DEVELOPER_LOCATION}}."
     />
     <meta
       property="og:image"
@@ -27,11 +27,11 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://terminal.wramsay.com/" />
+    <meta property="twitter:url" content="https://terminal.ahmadjalil.com/" />
     <meta property="twitter:title" content="Terminal Portfolio by William Ramsay" />
     <meta
       property="twitter:description"
-      content="William Ramsay's terminal portfolio website coded with ReactJS. William Ramsay is a full-stack developer based in Vancouver, BC."
+      content="William Ramsay's terminal portfolio website coded with ReactJS. William Ramsay is a full-stack developer based in {{DEVELOPER_LOCATION}}."
     />
     <meta
       property="twitter:image"
