@@ -44,9 +44,6 @@ jobs:
           if [ -f resume-repo/CV.yaml ]; then
             cp resume-repo/CV.yaml ./
             echo "✅ Resume YAML copied from private repo (CV.yaml)"
-          elif [ -f resume-repo/Ahmad_Jalil_CV.yaml ]; then
-            cp resume-repo/Ahmad_Jalil_CV.yaml ./CV.yaml
-            echo "✅ Resume YAML copied from private repo (Ahmad_Jalil_CV.yaml -> CV.yaml)"
           else
             echo "❌ Resume YAML not found in private repo - using local fallback"
           fi
@@ -56,11 +53,11 @@ jobs:
           if [ ! -f CV.yaml ]; then
             echo "❌ CV.yaml not found, creating minimal fallback..."
             echo "cv:" > CV.yaml
-            echo "  name: Ahmad Jalil" >> CV.yaml
-            echo "  location: Prince George, BC" >> CV.yaml
-            echo "  email: me@ahmadjalil.com" >> CV.yaml
-            echo "  phone: +1-778-267-9144" >> CV.yaml
-            echo "  website: https://ahmadjalil.com" >> CV.yaml
+            echo "  name: William Ramsay" >> CV.yaml
+            echo "  location: Vancouver, BC" >> CV.yaml
+            echo "  email: me@wramsay.com" >> CV.yaml
+            echo "  phone: +1-250-302-9268" >> CV.yaml
+            echo "  website: https://terminal.wramsay.com" >> CV.yaml
             echo "  sections:" >> CV.yaml
             echo "    experience: []" >> CV.yaml
             echo "    education: []" >> CV.yaml
@@ -135,7 +132,7 @@ jobs:
           ls -la dist/CV.yaml || echo "YAML file not found in dist!"
         
       - name: Add CNAME file
-        run: echo "terminal.ahmadjalil.com" > ./dist/CNAME
+        run: echo "terminal.wramsay.com" > ./dist/CNAME
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
