@@ -1,12 +1,12 @@
-# Terminal Portfolio - Ahmad Jalil
+# Terminal Portfolio - William Ramsay
 
 A terminal-style portfolio website built with React, TypeScript, and Styled-Components, featuring dynamic CV data loading from YAML files.
 
-**Live Demo:** [terminal.ahmadjalil.com](https://terminal.ahmadjalil.com)
+**Live Demo:** [terminal.wramsay.com](https://terminal.wramsay.com)
 
 ## Overview
 
-This is my personal terminal portfolio website that dynamically loads CV data from YAML files. Forked from [Sat Naing's terminal-portfolio](https://github.com/satnaing/terminal-portfolio) and enhanced with comprehensive CV management features.
+This is my personal terminal portfolio website that dynamically loads CV data from YAML files. Forked from [Sat Naing's terminal-portfolio](https://github.com/satnaing/terminal-portfolio) and Ahmad Jalil's terminal-portfolio and enhanced with comprehensive CV management features.
 
 ## Features
 
