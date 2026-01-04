@@ -80,8 +80,7 @@ No additional setup required for same-user repositories!
 ## Running Locally
 
 ```bash
-git clone https://github.com/ahzs645/terminal.ahmadjalil.com.git
-cd terminal.ahmadjalil.com
+git clone 
 npm install
 npm run prepare-cv  # Fetches resume from GitHub
 npm run dev
