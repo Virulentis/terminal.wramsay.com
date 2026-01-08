@@ -32,7 +32,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    setSelectedTheme(theme || themes.dark);
+    setSelectedTheme(theme || themes.nightOwl);
   }, [themeLoaded]);
 
   // Update meta tag colors when switching themes
