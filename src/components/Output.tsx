@@ -11,7 +11,7 @@ import Volunteer from "./commands/Volunteer";
 import ProfessionalDevelopment from "./commands/ProfessionalDevelopment";
 import Email from "./commands/Email";
 import GeneralOutput from "./commands/GeneralOutput";
-import Gui from "./commands/Gui";
+// import Gui from "./commands/Gui";
 import Help from "./commands/Help";
 import Welcome from "./commands/Welcome";
 import History from "./commands/History";
@@ -61,7 +61,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           education: <Education />,
           email: <Email />,
           experience: <Experience />,
-          gui: <Gui />,
+          // gui: <Gui />,
           help: <Help />,
           history: <History />,
           professional: <ProfessionalDevelopment />,

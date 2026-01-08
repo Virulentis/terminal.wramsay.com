@@ -18,11 +18,31 @@ const Welcome: React.FC = () => {
       <div className="info-section">
         <PreName>
           {`
-▄▄▌ ▐ ▄▌▪  ▄▄▌  ▄▄▌  ▪   ▄▄▄· • ▌ ▄ ·.   ▄▄▄   ▄▄▄· • ▌ ▄ ·. .▄▄ ·  ▄▄▄·  ▄· ▄▌
-██· █▌▐███ ██•  ██•  ██ ▐█ ▀█ ·██ ▐███▪  ▀▄ █·▐█ ▀█ ·██ ▐███▪▐█ ▀. ▐█ ▀█ ▐█▪██▌
-██▪▐█▐▐▌▐█·██ ▪ ██ ▪ ▐█·▄█▀▀█ ▐█ ▌▐▌▐█·  ▐▀▀▄ ▄█▀▀█ ▐█ ▌▐▌▐█·▄▀▀▀█▄▄█▀▀█ ▐█▌▐█▪
-▐█▌██▐█▌▐█▌▐█▌ ▄▐█▌ ▄▐█▌▐█▪ ▐▌██ ██▌▐█▌  ▐█•█▌▐█▪ ▐▌██ ██▌▐█▌▐█▄▪▐█▐█▪ ▐▌ ▐█▀·.
- ▀▀▀▀ ▀▪▀▀▀.▀▀▀ .▀▀▀ ▀▀▀ ▀  ▀ ▀▀  █▪▀▀▀  .▀  ▀ ▀  ▀ ▀▀  █▪▀▀▀ ▀▀▀▀  ▀  ▀   ▀ • 
+
+
+                      ,,    ,,    ,,    ,,                             
+\`7MMF\'     A     \`7MF\'db  \`7MM  \`7MM    db                             
+  \`MA     ,MA     ,V        MM    MM                                   
+   VM:   ,VVM:   ,V \`7MM    MM    MM  \`7MM   ,6"Yb.  \`7MMpMMMb.pMMMb.  
+    MM.  M\' MM.  M\'   MM    MM    MM    MM  8)   MM    MM    MM    MM  
+    \`MM A\'  \`MM A\'    MM    MM    MM    MM   ,pm9MM    MM    MM    MM  
+     :MM;    :MM;     MM    MM    MM    MM  8M   MM    MM    MM    MM  
+      VF      VF    .JMML..JMML..JMML..JMML.\`Moo9^Yo..JMML  JMML  JMML.
+                                                                       
+                                                                       
+                                                                       
+                                                                       
+\`7MM"""Mq.                                                             
+  MM   \`MM.                                                            
+  MM   ,M9   ,6"Yb.  \`7MMpMMMb.pMMMb.  ,pP"Ybd  ,6"Yb.\`7M\'   \`MF\'      
+  MMmmdM9   8)   MM    MM    MM    MM  8I   \`" 8)   MM  VA   ,V        
+  MM  YM.    ,pm9MM    MM    MM    MM  \`YMMMa.  ,pm9MM   VA ,V         
+  MM   \`Mb. 8M   MM    MM    MM    MM  L.   I8 8M   MM    VVV          
+.JMML. .JMM.\`Moo9^Yo..JMML  JMML  JMML.M9mmmP\' \`Moo9^Yo.  ,V           
+                                                         ,V            
+                                                      OOb"             
+
+
 
                                                                 `}
         </PreName>

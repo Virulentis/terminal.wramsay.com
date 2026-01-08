@@ -33,8 +33,8 @@ const About: React.FC = () => {
     );
   }
 
-  const name = cvData?.cv?.name || "Ahmad Jalil";
-  const location = cvData?.cv?.location || "Prince George, British Columbia";
+  const name = cvData?.cv?.name || "William Ramsay";
+  const location = cvData?.cv?.location || "Vancouver, British Columbia";
 
   return (
     <AboutWrapper data-testid="about">
@@ -42,10 +42,10 @@ const About: React.FC = () => {
         Hi, my name is <HighlightSpan>{name}</HighlightSpan>!
       </p>
       <p>
-        I'm <HighlightAlt>a Researcher</HighlightAlt> based in {location}.
+        I'm <HighlightAlt>a programer</HighlightAlt> based in {location}.
       </p>
       <p>
-        I am passionate about research and <br />
+        I am passionate about servers and <br />
         tinkering to solve real-life challenges.
       </p>
     </AboutWrapper>
