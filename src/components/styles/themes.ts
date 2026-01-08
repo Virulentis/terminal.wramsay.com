@@ -102,9 +102,9 @@ const theme: Themes = {
     },
   },
 
-  "night-owl": {
+  nightOwl: {
     id: "T_007",
-    name: "night-owl",
+    name: "nightOwl",
     colors: {
       body: "#011627",
       scrollHandle: "#457cf4ff",
