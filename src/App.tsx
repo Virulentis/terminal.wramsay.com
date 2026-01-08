@@ -61,7 +61,7 @@ function App() {
         Terminal Portfolio
       </h1>
       {themeLoaded && (
-        <ThemeProvider theme={selectedTheme || themes.dark}>
+        <ThemeProvider theme={selectedTheme || themes.night_owl}>
           <GlobalStyle />
           <CommandsProvider>
             <themeContext.Provider value={themeSwitcher}>
