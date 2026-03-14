@@ -12,10 +12,10 @@ export interface TerminalConfig {
 // Default terminal configuration
 const defaultConfig: TerminalConfig = {
   username: 'visitor',
-  hostname: 'terminal.ahmadjalil.com',
+  hostname: 'terminal.wramsay.com',
   homeDirectory: '/home/user',
-  repositoryUrl: 'https://github.com/ahzs645/terminal.ahmadjalil.com',
-  version: '1.3.1'
+  repositoryUrl: 'https://github.com/Virulentis/terminal.wramsay.com',
+  version: '1.0.7'
 };
 
 // Generate terminal configuration based on CV data
