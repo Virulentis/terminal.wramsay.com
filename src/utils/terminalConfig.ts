@@ -31,7 +31,7 @@ export const generateTerminalConfig = (cvData: CVData | null): TerminalConfig =>
 
   return {
     username: defaultConfig.username, // Keep as visitor for now
-    hostname: `terminal.${domain}`,
+    hostname: domain,
     homeDirectory: `/home/${firstName}`,
     repositoryUrl: defaultConfig.repositoryUrl, // Could be made configurable later
     version: defaultConfig.version

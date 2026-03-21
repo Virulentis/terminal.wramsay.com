@@ -120,11 +120,11 @@ cv:
         date: 2025
         summary: Contributed to an open-source resume builder application by developing a tagging and filtering system to help users organize and filter job roles based on custom tags.
         highlights:
-          - Technologies - Python, typr, yaml
+          - Technologies - Python, typer, yaml
       
       - name: Computer-Craft Scripts
         date: 2025
-        summary: Made multiple programs that focus on state management, movement and spacial awareness.
+        summary: Made multiple programs that focus on state management, movement and spatial awareness.
         highlights:
           - Technologies - lua
         tags: [archived]

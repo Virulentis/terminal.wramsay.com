@@ -42,7 +42,7 @@ const About: React.FC = () => {
         Hi, my name is <HighlightSpan>{name}</HighlightSpan>!
       </p>
       <p>
-        I'm <HighlightAlt>a programer</HighlightAlt> based in {location}.
+        I'm <HighlightAlt>a programmer</HighlightAlt> based in {location}.
       </p>
       <p>
         I am passionate about servers and <br />
