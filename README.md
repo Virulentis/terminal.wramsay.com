@@ -100,7 +100,7 @@ npm run dev
 
 ## Credits
 
-Forked from [terminal-portfolio](https://github.com/satnaing/terminal-portfolio) by Sat Naing (@satnaing).
+Forked from [terminal](https://github.com/ahzs645/terminal.ahmadjalil.com) by Ahmad Jalil which forked from [terminal-portfolio](https://github.com/satnaing/terminal-portfolio) by Sat Naing (@satnaing).
 
 ### My Contributions
 - **GitHub Resume Integration** - Fetch resume from any GitHub repository
@@ -116,5 +116,3 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Ahmad Jalil** - Researcher passionate about solving real-life challenges  
-Website: [ahmadjalil.com](https://ahmadjalil.com) | Email: me@ahmadjalil.com
